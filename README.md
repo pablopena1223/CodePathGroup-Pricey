@@ -1,5 +1,5 @@
 Original App Design Project - README Template
-===
+===  
 
 # Pricey
 
@@ -28,47 +28,66 @@ A price comparer that lets you compare prices of items. Might have to stick to 1
 
 **Required Must-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* User can create a new account to save previous searches
+* User can login
+* User can compare prices of 1 item in various stores that have the product 
+* User can save these item prices if they are logged in
+* User can logout once they're done
 
 **Optional Nice-to-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* User can click on a link to take them to the store they choose to pick 
+* User doesn't need to have an account to use the price comparer.
+* User can look up stores closest to them if they choose proximity > price.
 
 ### 2. Screen Archetypes
 
-* [list first screen here]
-   * [list associated required story here]
-   * ...
-* [list second screen here]
-   * [list associated required story here]
-   * ...
+* Login Screen
+    * User can login
+* Create Account Screen
+    * User can create an account
+* Search Screen
+    * User can compare prices of 1 item in various stores that have the product
+* Logout Screen
+    * User can logout once they're done
+* Map Locator Screen
+    * User can see where the 
+* Stores Screen
+    * User can view the stores that have the item they want
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+* Compare Price
+* Location of stores
+* Stores (with the items in stock)
 
 **Flow Navigation** (Screen to Screen)
 
-* [list first screen here]
-   * [list screen navigation here]
-   * ...
-* [list second screen here]
-   * [list screen navigation here]
-   * ...
+* Login Screen
+    * Search
+    * Stores
+    * Map Locator
+* Create Account Screen
+    * Search
+    * Stores
+    * Map Locator
+* Search Screen
+    * Stores
+* Logout Screen
+    * Login
+* Map Locator Screen
+    * Stores
+    * Search
+* Stores Screen
+    * Search
+    * Map Locator
 
 ## Wireframes
-[Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
 
-### [BONUS] Digital Wireframes & Mockups
+![](https://i.imgur.com/1sKrO53.jpg)
 
-### [BONUS] Interactive Prototype
 
 ## Schema 
 [This section will be completed in Unit 9]
