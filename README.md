@@ -90,14 +90,14 @@ A price comparer that lets you compare prices of items. Might have to stick to 1
 
 
 ## Schema 
+### Models
 |  Property  |    Type     |        Description          |
 |  --------  |    ------   |        -----------          |
 |  price     |    Number   |price of the object desired  |
 |  product   |    String   |the object that user wants to look for/buy|
 |  email     |    String   |user's email that will be used to identify identity upon creation of account|
 |  Image     |    File     |an image of the user's searched product|
-### Models
-[Add table of models]
+
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
