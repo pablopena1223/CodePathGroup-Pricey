@@ -91,12 +91,17 @@ A price comparer that lets you compare prices of items. Might have to stick to 1
 
 ## Schema 
 ### Models
+Looking up price:
+
 |  Property  |    Type     |        Description          |
 |  --------  |    ------   |        -----------          |
 |  price     |    Number   |price of the object desired  |
 |  product   |    String   |the object that user wants to look for/buy|
 |  email     |    String   |user's email that will be used to identify identity upon creation of account|
 |  Image     |    File     |an image of the user's searched product|
+|  password  |    String   |authentication to log in to user's account |
+|  storeCount|    Number   |keeps track of how many stores were found with the product in stock|
+
 
 ### Networking
 - [Add list of network requests by screen ]
