@@ -107,6 +107,18 @@ Looking up price:
 * Login Screen
    * (READ/GET): will get the inputted email and password and login user if correct combo
    * (UPDATE/PUT): will be updating user table to add a new user when requesting creation of new account
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+* Search Screen 
+   * (GET/search): This endpoint is used to search the product from the stores
+``` {
+    "data": [
+        {
+            "product_title": "Apple iPhone 6 32GB",
+            "can_compare": true,
+            "product_lowest_price": 26490,
+            "product_link": "https://price-api.datayuge.com/api/v1/compare/detail?id=ZToxMjIyNA",
+            "product_id": "ZToxMjIyNA",
+            "product_category": "mobile",
+            "product_sub_category": "mobile",
+            "product_image": "http://images-api.datayuge.in/image/MTIyMjQtMjYtMQ.jpg"
+        },```
+
