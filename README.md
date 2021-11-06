@@ -142,7 +142,7 @@ Looking up price:
         ], 
 ```
    * GET /list: this resource will show all the products in a particular category. 
-``` {
+``` python {
     "data": [
         {
             "product_title": "Xiaomi Redmi 4A",
