@@ -120,5 +120,22 @@ Looking up price:
             "product_category": "mobile",
             "product_sub_category": "mobile",
             "product_image": "http://images-api.datayuge.in/image/MTIyMjQtMjYtMQ.jpg"
-        },```
-
+        }, ```
+* Stories Screen 
+   * GET /detail: This resource will the detailed about the product. It may include the basic product details, images, colour options and pricing from different stores
+``` python {
+    "data": {
+        "product_name": "Apple iPhone 6 32GB",
+        "product_model": "iPhone 6 32GB",
+        "product_brand": "Apple",
+        "product_id": "ZToxMjIyNA",
+        "product_ratings": "4.2",
+        "product_category": "mobile",
+        "product_sub_category": "mobile",
+        "is_available": true,
+        "available_colors": [
+            "All Colours",
+            "Gold",
+            "Grey",
+            "Silver"
+        ], ```
