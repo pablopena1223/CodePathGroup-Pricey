@@ -120,7 +120,8 @@ Looking up price:
             "product_category": "mobile",
             "product_sub_category": "mobile",
             "product_image": "http://images-api.datayuge.in/image/MTIyMjQtMjYtMQ.jpg"
-        }, ```
+        }, 
+   ```
 * Stories Screen 
    * GET /detail: This resource will the detailed about the product. It may include the basic product details, images, colour options and pricing from different stores
 ``` python {
@@ -138,4 +139,28 @@ Looking up price:
             "Gold",
             "Grey",
             "Silver"
-        ], ```
+        ], 
+```
+   * GET /list: this resource will show all the products in a particular category. 
+``` {
+    "data": [
+        {
+            "product_title": "Xiaomi Redmi 4A",
+            "can_compare": true,
+            "product_lowest_price": 5998,
+            "product_link": "https://price-api.datayuge.com/api/v1/compare/detail?id=ZToxMTYwNQ",
+            "product_id": "ZToxMTYwNQ",
+            "product_category": "mobile",
+            "product_sub_category": "mobile"
+        },
+        {
+            "product_title": "Xiaomi Redmi 4",
+            "can_compare": true,
+            "product_lowest_price": 6998,
+            "product_link": "https://price-api.datayuge.com/api/v1/compare/detail?id=ZToxMTE0Ng",
+            "product_id": "ZToxMTE0Ng",
+            "product_category": "mobile",
+            "product_sub_category": "mobile"
+        },
+ ```
+ 
