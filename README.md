@@ -162,5 +162,23 @@ Looking up price:
             "product_category": "mobile",
             "product_sub_category": "mobile"
         },
- ```
- 
+```
+   
+   * GET /price: Displays price without calling the whole function 
+  
+ ```python {
+    "amazon": "28490",
+    "flipkart": "28990",
+    "snapdeal": "",
+    "ebay": "29499",
+    "paytm": "",
+    "croma": "27999",
+    "yebhi": "",
+    "indiatimes": "",
+    "homeshop18": "",
+    "naaptol": "",
+    "infibeam": "28095",
+    "tatacliq": "27999",
+    "shopclues": "29499"
+}
+```
