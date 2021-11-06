@@ -109,8 +109,7 @@ Looking up price:
    * (UPDATE/PUT): will be updating user table to add a new user when requesting creation of new account
 * Search Screen 
    * (GET/search): This endpoint is used to search the product from the stores
-``` 
-python {
+``` python {
     "data": [
         {
             "product_title": "Apple iPhone 6 32GB",
