@@ -28,8 +28,10 @@ A price comparer that lets you compare prices of items. Might have to stick to 1
 
 **Required Must-have Stories**
 
-[x] User can create a new account to save previous searches
-[x] User can login
+[X] User can create a new account to save previous searches
+
+[X] User can login
+
 * User can compare prices of 1 item in various stores that have the product 
 * User can save these item prices if they are logged in
 * User can logout once they're done
