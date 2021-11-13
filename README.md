@@ -89,6 +89,11 @@ A price comparer that lets you compare prices of items. Might have to stick to 1
 ![](https://i.imgur.com/1sKrO53.jpg)
 
 
+## Video Walkthrough
+
+![](https://i.imgur.com/G9vQ5w9.gif)
+
+
 ## Schema 
 ### Models
 Looking up price:
