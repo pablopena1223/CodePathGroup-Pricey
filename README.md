@@ -28,8 +28,10 @@ A price comparer that lets you compare prices of items. Might have to stick to 1
 
 **Required Must-have Stories**
 
-* User can create a new account to save previous searches
-* User can login
+- [x]  User can create a new account to save previous searches
+
+- [x]  User can login
+
 * User can compare prices of 1 item in various stores that have the product 
 * User can save these item prices if they are logged in
 * User can logout once they're done
@@ -89,11 +91,101 @@ A price comparer that lets you compare prices of items. Might have to stick to 1
 ![](https://i.imgur.com/1sKrO53.jpg)
 
 
+## Video Walkthrough
+
+![](https://i.imgur.com/G9vQ5w9.gif)
+
+
 ## Schema 
-[This section will be completed in Unit 9]
 ### Models
-[Add table of models]
+Looking up price:
+
+|  Property  |    Type     |        Description          |
+|  --------  |    ------   |        -----------          |
+|  price     |    Number   |price of the object desired  |
+|  product   |    String   |the object that user wants to look for/buy|
+|  email     |    String   |user's email that will be used to identify identity upon creation of account|
+|  Image     |    File     |an image of the user's searched product|
+|  password  |    String   |authentication to log in to user's account |
+|  storeCount|    Number   |keeps track of how many stores were found with the product in stock|
+
+
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+* Login Screen
+   * (READ/GET): will get the inputted email and password and login user if correct combo
+   * (UPDATE/PUT): will be updating user table to add a new user when requesting creation of new account
+* Search Screen 
+   * (GET/search): This endpoint is used to search the product from the stores
+``` python {
+    "data": [
+        {
+            "product_title": "Apple iPhone 6 32GB",
+            "can_compare": true,
+            "product_lowest_price": 26490,
+            "product_link": "https://price-api.datayuge.com/api/v1/compare/detail?id=ZToxMjIyNA",
+            "product_id": "ZToxMjIyNA",
+            "product_category": "mobile",
+            "product_sub_category": "mobile",
+            "product_image": "http://images-api.datayuge.in/image/MTIyMjQtMjYtMQ.jpg"
+        }, 
+   ```
+* Stories Screen 
+   * GET /detail: This resource will the detailed about the product. It may include the basic product details, images, colour options and pricing from different stores
+``` python {
+    "data": {
+        "product_name": "Apple iPhone 6 32GB",
+        "product_model": "iPhone 6 32GB",
+        "product_brand": "Apple",
+        "product_id": "ZToxMjIyNA",
+        "product_ratings": "4.2",
+        "product_category": "mobile",
+        "product_sub_category": "mobile",
+        "is_available": true,
+        "available_colors": [
+            "All Colours",
+            "Gold",
+            "Grey",
+            "Silver"
+        ], 
+```
+   * GET /list: this resource will show all the products in a particular category. 
+``` python {
+    "data": [
+        {
+            "product_title": "Xiaomi Redmi 4A",
+            "can_compare": true,
+            "product_lowest_price": 5998,
+            "product_link": "https://price-api.datayuge.com/api/v1/compare/detail?id=ZToxMTYwNQ",
+            "product_id": "ZToxMTYwNQ",
+            "product_category": "mobile",
+            "product_sub_category": "mobile"
+        },
+        {
+            "product_title": "Xiaomi Redmi 4",
+            "can_compare": true,
+            "product_lowest_price": 6998,
+            "product_link": "https://price-api.datayuge.com/api/v1/compare/detail?id=ZToxMTE0Ng",
+            "product_id": "ZToxMTE0Ng",
+            "product_category": "mobile",
+            "product_sub_category": "mobile"
+        },
+```
+   
+   * GET /price: Displays price without calling the whole function 
+  
+ ```python {
+    "amazon": "28490",
+    "flipkart": "28990",
+    "snapdeal": "",
+    "ebay": "29499",
+    "paytm": "",
+    "croma": "27999",
+    "yebhi": "",
+    "indiatimes": "",
+    "homeshop18": "",
+    "naaptol": "",
+    "infibeam": "28095",
+    "tatacliq": "27999",
+    "shopclues": "29499"
+}
+```
