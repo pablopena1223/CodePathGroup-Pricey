@@ -45,11 +45,11 @@ A price comparer that lets you compare prices of items. Might have to stick to 1
 ### 2. Screen Archetypes
 
 * Login Screen
-    * User can login
+   - [x] User can login
 * Create Account Screen
-    * User can create an account
+   - [x] User can create an account
 * Search Screen
-    * User can compare prices of 1 item in various stores that have the product
+   - [x] User can compare prices of 1 item in various stores that have the product
 * Logout Screen
     * User can logout once they're done
 * Map Locator Screen
