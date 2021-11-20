@@ -97,6 +97,8 @@ A price comparer that lets you compare prices of items. Might have to stick to 1
 
 ![ezgif com-gif-maker(1)](https://user-images.githubusercontent.com/67729867/142714725-d4fae368-1c0b-4e36-8833-44d317bc5b08.gif)
 
+<img width="231" alt="codepath" src="https://user-images.githubusercontent.com/67729867/142714779-51ff8d7b-cddc-482d-a3d1-8730c2d04daa.png">
+
 
 ## Update 1
 ![](https://i.imgur.com/G9vQ5w9.gif)
