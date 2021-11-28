@@ -32,14 +32,14 @@ A price comparer that lets you compare prices of items. Might have to stick to 1
 
 - [x]  User can login
 
-* User can compare prices of 1 item in various stores that have the product 
-* User can save these item prices if they are logged in
-* User can logout once they're done
+- [x] User can compare prices of 1 item in various stores that have the product 
+- [x] User can save these item prices if they are logged in
+ User can logout once they're done
 
 **Optional Nice-to-have Stories**
 
 * User can click on a link to take them to the store they choose to pick 
-* User doesn't need to have an account to use the price comparer.
+- [x] User doesn't need to have an account to use the price comparer.
 * User can look up stores closest to them if they choose proximity > price.
 
 ### 2. Screen Archetypes
@@ -61,9 +61,9 @@ A price comparer that lets you compare prices of items. Might have to stick to 1
 
 **Tab Navigation** (Tab to Screen)
 
-* Compare Price
+- [x] Compare Price
 * Location of stores
-* Stores (with the items in stock)
+- [x] Stores (with the items in stock)
 
 **Flow Navigation** (Screen to Screen)
 
@@ -92,6 +92,10 @@ A price comparer that lets you compare prices of items. Might have to stick to 1
 
 
 ## Video Walkthrough
+
+## Update 3
+
+![codepath22](https://user-images.githubusercontent.com/67729867/143729863-0f483613-74ec-4895-a669-4ae61523136f.gif)
 
 ## Update 2
 
