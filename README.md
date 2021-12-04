@@ -51,11 +51,11 @@ A price comparer that lets you compare prices of items. Might have to stick to 1
 * Search Screen
    - [x] User can compare prices of 1 item in various stores that have the product
 * Logout Screen
-    * User can logout once they're done
+   - [x] * User can logout once they're done
 * Map Locator Screen
-    * User can see where the 
+   -[x] * User can see where the 
 * Stores Screen
-    * User can view the stores that have the item they want
+   -[x] * User can view the stores that have the item they want
 
 ### 3. Navigation
 
